@@ -1,0 +1,201 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f5f5f5;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+h1 {
+    background: linear-gradient(to right, #0077cc, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Navigation */
+nav {
+    background: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00c6ff;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1s;
+}
+
+h2 {
+    color: #0077cc;
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 5px;
+}
+
+/* Cards */
+.card {
+    background: #f0f8ff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* Projects */
+.project-card {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Form */
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #005fa3;
+}
+
+/* Dark Mode */
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark section {
+    background: #1e1e1e;
+}
+
+.dark nav {
+    background: black;
+}
+
+.dark a {
+    color: lightblue;
+}
+
+/* Dark Mode Button */
+.dark-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.hero {
+    background: linear-gradient(to right, #0077cc, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Social buttons */
+.social a {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 15px;
+    background: white;
+    color: #0077cc;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social a:hover {
+    background: #005fa3;
+    color: white;
+}
+
+.resume-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.resume-btn:hover {
+    background: #005fa3;
+}
+
+#about p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.bar {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.fill {
+    height: 10px;
+    background: #0077cc;
+    border-radius: 5px;
+}

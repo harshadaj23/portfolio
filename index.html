@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+    <button onclick="toggleDarkMode()" class="dark-btn">🌙</button>
+
+<!-- Header -->
+<header class="hero">
+
+    <img src="profile.jpg" class="profile">
+
+    <h1>Harshada Jagadale</h1>
+    <p>Computer Engineering Student | AI Developer</p>
+
+    <div class="social">
+        <a href="https://www.linkedin.com/in/harshada-jagadale-076b112ba" target="_blank">LinkedIn</a>
+        <a href="#">GitHub</a>
+    </div>
+
+</header>
+
+<hr>
+
+<!-- Navigation -->
+<nav>
+<a href="#about">About</a> |
+<a href="#skills">Skills</a> |
+<a href="#projects">Projects</a> |
+<a href="#education">Education</a> |
+<a href="#achievements">Achievements</a> |
+<a href="#contact">Contact</a>
+<a href="#resume">Resume</a>
+</nav>
+
+<hr>
+
+<!-- About -->
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        Hello! I am <b>Harshada Jagadale</b>, a Third Year Computer Engineering student with a strong interest in 
+        Artificial Intelligence, Web Development, and problem-solving.
+    </p>
+
+    <p>
+        I am passionate about building real-world projects that solve practical problems. 
+        I enjoy learning new technologies and continuously improving my technical skills.
+    </p>
+
+    <p>
+        I have worked on projects like an <b>AI Study Planner</b> and a <b>Crop Recommendation System</b>, 
+        where I applied my knowledge of programming and data analysis.
+    </p>
+
+    <p>
+        I am also focused on improving my coding skills in C, C++, Java, and web technologies like HTML, CSS, and JavaScript.
+    </p>
+
+    <p>
+        My goal is to become a skilled software developer and contribute to innovative and impactful projects in the future.
+    </p>
+</section>
+
+
+<!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="card">
+        <h3>Programming Languages</h3>
+        <p>C, C++, Java</p>
+    </div>
+
+    <div class="card">
+        <h3>Web Technologies</h3>
+        <p>HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="card">
+        <h3>Tools & Platforms</h3>
+        <p>Git, GitHub, VS Code</p>
+    </div>
+
+    <div class="card">
+        <h3>Core Concepts</h3>
+        <p>Data Structures, OOP, DBMS (Basics)</p>
+    </div>
+</section>
+
+<h3>Skill Level</h3>
+
+<p>HTML</p>
+<div class="bar"><div class="fill" style="width:90%"></div></div>
+
+<p>CSS</p>
+<div class="bar"><div class="fill" style="width:85%"></div></div>
+
+<p>JavaScript</p>
+<div class="bar"><div class="fill" style="width:70%"></div></div>
+
+<!-- Projects -->
+<section>
+    <h2 id="projects">Projects</h2>
+
+    <div class="card">
+        <img src="project1.jpg" class="project-img">
+        <b>AI Study Planner</b><br>
+        Helps students plan study
+    </div>
+
+    <div class="card">
+        <img src="project2.jpg" class="project-img">
+        <b>Crop Recommendation System</b><br>
+        Suggests best crops
+    </div>
+
+</section>
+
+<!-- Education -->
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="card">
+        <h3>Bachelor of Engineering (Computer Engineering)</h3>
+        <p>Pimpri Chinchwad College of Engineering & Research, Pune</p>
+        <p>2023 – 2027</p>
+    </div>
+
+    <div class="card">
+        <h3>Higher Secondary (12th)</h3>
+        <p>State Board</p>
+        <p>2021 – 2023</p>
+    </div>
+
+    <div class="card">
+        <h3>Secondary (10th)</h3>
+        <p>State Board</p>
+        <p>Completed in 2021</p>
+    </div>
+
+</section>
+
+<!-- Achievements -->
+<section>
+    <h2 id="achievements">Achievements</h2>
+
+    <div class="card">
+        Cognifyz Internship Completed
+    </div>
+
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+
+    <p>You can download my resume below:</p>
+
+    <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+</section>
+
+
+
+<!-- Contact -->
+<section>
+    <h2 id="contact">Contact</h2>
+
+    <form onsubmit="sendMessage(event)">
+        <input type="text" placeholder="Your Name" required><br><br>
+        <input type="email" placeholder="Your Email" required><br><br>
+        <textarea placeholder="Your Message" required></textarea><br><br>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p id="msg"></p>
+</section>
+
+<script src="script.js"></script>
+<footer style="text-align:center; padding:15px; background:#222; color:white;">
+    © 2026 Harshada Jagadale
+</footer>
+</body>
+</html>
